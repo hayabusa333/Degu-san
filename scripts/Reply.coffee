@@ -9,5 +9,5 @@ module.exports = (robot) ->
 
   robot.hear /身長|小さい|好き嫌い|伸び|幼女/i, (msg) ->
     msg.send msg.random [
-        "私は非断面積が小さいことを喜ぼうと思うのですが。"
+        "私は被弾面積が小さいことを喜ぼうと思うのですが。"
     ]
